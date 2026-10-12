@@ -1,0 +1,18 @@
+[project]
+name = "warm-tail-analysis"
+version = "1.0.0"
+description = "Analysis of warm-start tail latency in serverless platforms"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.1",
+    "jupyter>=1.1",
+    "matplotlib>=3.10.3,<4",
+    "numpy>=2.0,<3",
+    "pandas>=2.2.3,<3",
+    "pyarrow>=17",
+    "pymysql>=1.1",
+    "scipy>=1.14",
+    "seaborn>=0.13.2",
+    "sqlalchemy>=2.0.44",
+]

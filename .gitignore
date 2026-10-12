@@ -1,0 +1,40 @@
+# SQLite / DuckDB datasets — too large to track, see README for where to get them
+data*.db
+geodis*.db
+data/tail-data*1h*.db
+data/tail-data-1m*.db
+*.db-wal
+*.db-shm
+*.duckdb
+*.sqlite
+*.csv
+*.sql
+
+# ...but the small tail-baseline runs and the paper's final aggregates are tracked.
+!data/tertiary_aggregations/*.csv
+!figures/*.csv
+
+# Large raw exports pulled into the tertiary-repo folders
+# (300MB MySQL dump for NSD, 85MB CSV for BEF)
+tertiary-repos/schirmer_et_al/gcf_data.sql
+tertiary-repos/kuhlenkamp_et_al/full.csv
+
+# The Huawei traces (Joosen et al.) are pulled in here by the user; far too large to track.
+tertiary-repos/joosen_et_al/huawei-data/
+
+# Third-party checkout with its own git history and license.
+# Not vendored in — see README.md for the upstream URL. Only our own notebook is tracked.
+tertiary-repos/mahmoudi_et_al/*
+!tertiary-repos/mahmoudi_et_al/schema_scan_and_load.ipynb
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+.DS_Store
+
+# DuckDB spill directory used by the Huawei notebooks
+duckdb_temp/

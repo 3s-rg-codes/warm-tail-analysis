@@ -1,0 +1,54 @@
+{
+    "x86": {
+        "128": {
+            "memory_usage_bytes": "13348864", 
+            "memory_limit_bytes": "134217728", 
+            "cpu_quota_us": "24800", 
+            "cpu_period_us": "100000", 
+            "cpu_usage_ns": "None", 
+            "assigned_vcpus": 0.248
+        },
+        "512": {
+            "memory_usage_bytes": "13369344", 
+            "memory_limit_bytes": "536870912", 
+            "cpu_quota_us": "100000", 
+            "cpu_period_us": "100000", 
+            "cpu_usage_ns": "None", 
+            "assigned_vcpus": 1.0
+        },
+        "1024": {
+            "memory_usage_bytes": "13348864", 
+            "memory_limit_bytes": "1073741824", 
+            "cpu_quota_us": "150000", 
+            "cpu_period_us": "100000", 
+            "cpu_usage_ns": "None", 
+            "assigned_vcpus": 1.5
+        }
+    },
+    "arm": {
+        "128": {
+            "memory_usage_bytes": "20774912", 
+            "memory_limit_bytes": "134217728", 
+            "cpu_quota_us": "12400", 
+            "cpu_period_us": "100000", 
+            "cpu_usage_ns": "None", 
+            "assigned_vcpus": 0.124
+        },
+        "512": {
+            "memory_usage_bytes": "20774912", 
+            "memory_limit_bytes": "536870912", 
+            "cpu_quota_us": "50000", 
+            "cpu_period_us": "100000", 
+            "cpu_usage_ns": "None", 
+            "assigned_vcpus": 0.5
+        },
+        "1024": {
+            "memory_usage_bytes": "20774912", 
+            "memory_limit_bytes": "1073741824", 
+            "cpu_quota_us": "100000", 
+            "cpu_period_us": "100000", 
+            "cpu_usage_ns": "None", 
+            "assigned_vcpus": 1.0
+        }
+    }
+}
